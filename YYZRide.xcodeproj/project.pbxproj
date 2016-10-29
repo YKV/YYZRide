@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05DB2232AF11259813482EFF /* Pods_YYZRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDE6249165F0540171FB74C /* Pods_YYZRide.framework */; };
 		444A7D731DC3FA40009A439E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D721DC3FA40009A439E /* AppDelegate.swift */; };
 		444A7D751DC3FA40009A439E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D741DC3FA40009A439E /* LoginVC.swift */; };
-		444A7D781DC3FA40009A439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D761DC3FA40009A439E /* Main.storyboard */; };
 		444A7D7B1DC3FA40009A439E /* YYZRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D791DC3FA40009A439E /* YYZRide.xcdatamodeld */; };
 		444A7D7D1DC3FA40009A439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D7C1DC3FA40009A439E /* Assets.xcassets */; };
 		444A7D801DC3FA40009A439E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D7E1DC3FA40009A439E /* LaunchScreen.storyboard */; };
@@ -18,6 +18,9 @@
 		444A7D901DC405B5009A439E /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D8F1DC405B5009A439E /* Flashable.swift */; };
 		444A7D921DC441BE009A439E /* DirectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D911DC441BD009A439E /* DirectionVC.swift */; };
 		444A7D941DC45427009A439E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D931DC45426009A439E /* API.swift */; };
+		444A7D981DC47AFA009A439E /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D971DC47AFA009A439E /* WebVC.swift */; };
+		444A7D9E1DC4FF7C009A439E /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D9D1DC4FF7C009A439E /* MapVC.swift */; };
+		444A7DA01DC50E7E009A439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D9F1DC50E7E009A439E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,6 @@
 		444A7D6F1DC3FA40009A439E /* YYZRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYZRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444A7D721DC3FA40009A439E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		444A7D741DC3FA40009A439E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		444A7D771DC3FA40009A439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		444A7D7A1DC3FA40009A439E /* YYZRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YYZRide.xcdatamodel; sourceTree = "<group>"; };
 		444A7D7C1DC3FA40009A439E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444A7D7F1DC3FA40009A439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,9 +37,24 @@
 		444A7D8F1DC405B5009A439E /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashable.swift; sourceTree = "<group>"; };
 		444A7D911DC441BD009A439E /* DirectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionVC.swift; sourceTree = "<group>"; };
 		444A7D931DC45426009A439E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		444A7D971DC47AFA009A439E /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		444A7D991DC4FDD7009A439E /* YYZRide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYZRide-Bridging-Header.h"; sourceTree = "<group>"; };
+		444A7D9D1DC4FF7C009A439E /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		444A7D9F1DC50E7E009A439E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4EDE6249165F0540171FB74C /* Pods_YYZRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYZRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE33285814F67DF2247535AF /* Pods-YYZRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYZRide/Pods-YYZRide.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCEE82E08CCE6576BC88FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DB2232AF11259813482EFF /* Pods_YYZRide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0C059FBF6E384262DFE4FD7E /* Pods */ = {
@@ -74,13 +91,16 @@
 				444A7D871DC3FBB1009A439E /* images */,
 				444A7D721DC3FA40009A439E /* AppDelegate.swift */,
 				444A7D741DC3FA40009A439E /* LoginVC.swift */,
+				444A7D9D1DC4FF7C009A439E /* MapVC.swift */,
 				444A7D911DC441BD009A439E /* DirectionVC.swift */,
-				444A7D761DC3FA40009A439E /* Main.storyboard */,
 				444A7D7C1DC3FA40009A439E /* Assets.xcassets */,
 				444A7D7E1DC3FA40009A439E /* LaunchScreen.storyboard */,
 				444A7D811DC3FA40009A439E /* Info.plist */,
 				444A7D791DC3FA40009A439E /* YYZRide.xcdatamodeld */,
+				444A7D9F1DC50E7E009A439E /* Main.storyboard */,
 				444A7D931DC45426009A439E /* API.swift */,
+				444A7D971DC47AFA009A439E /* WebVC.swift */,
+				444A7D991DC4FDD7009A439E /* YYZRide-Bridging-Header.h */,
 			);
 			path = YYZRide;
 			sourceTree = "<group>";
@@ -117,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 444A7D841DC3FA40009A439E /* Build configuration list for PBXNativeTarget "YYZRide" */;
 			buildPhases = (
+				A2FD7F2B6CFB322D7189DE38 /* [CP] Check Pods Manifest.lock */,
 				444A7D6B1DC3FA40009A439E /* Sources */,
 				444A7D6D1DC3FA40009A439E /* Resources */,
-				09D86C9F05C6CB47210C800E /* [CP] Embed Pods Frameworks */,
+				DCCEE82E08CCE6576BC88FE2 /* Frameworks */,
+				F816C262010D4AA30F06F482 /* [CP] Embed Pods Frameworks */,
+				102FDAC7965DACAE069072BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,14 +197,44 @@
 				444A7D8B1DC3FCC0009A439E /* car.png in Resources */,
 				444A7D801DC3FA40009A439E /* LaunchScreen.storyboard in Resources */,
 				444A7D7D1DC3FA40009A439E /* Assets.xcassets in Resources */,
-				444A7D781DC3FA40009A439E /* Main.storyboard in Resources */,
+				444A7DA01DC50E7E009A439E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09D86C9F05C6CB47210C800E /* [CP] Embed Pods Frameworks */ = {
+		102FDAC7965DACAE069072BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYZRide/Pods-YYZRide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FD7F2B6CFB322D7189DE38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F816C262010D4AA30F06F482 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,7 +261,9 @@
 				444A7D7B1DC3FA40009A439E /* YYZRide.xcdatamodeld in Sources */,
 				444A7D731DC3FA40009A439E /* AppDelegate.swift in Sources */,
 				444A7D921DC441BE009A439E /* DirectionVC.swift in Sources */,
+				444A7D981DC47AFA009A439E /* WebVC.swift in Sources */,
 				444A7D901DC405B5009A439E /* Flashable.swift in Sources */,
+				444A7D9E1DC4FF7C009A439E /* MapVC.swift in Sources */,
 				444A7D941DC45427009A439E /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,14 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		444A7D761DC3FA40009A439E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				444A7D771DC3FA40009A439E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		444A7D7E1DC3FA40009A439E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,11 +379,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZQULK99ND9;
 				INFOPLIST_FILE = YYZRide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.YYZRide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YYZRide/YYZRide-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -347,11 +397,13 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ZQULK99ND9;
 				INFOPLIST_FILE = YYZRide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.YYZRide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YYZRide/YYZRide-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

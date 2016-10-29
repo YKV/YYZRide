@@ -85,7 +85,7 @@ class LoginVC: UIViewController, UITextFieldDelegate, UINavigationControllerDele
 
 
     @IBAction func loginButtonPressed(_ sender: UIButton) {
-        let vc: DirectionVC! = self.storyboard?.instantiateViewController(withIdentifier: "DirectionID") as! DirectionVC
+        let vc: MapVC! = self.storyboard?.instantiateViewController(withIdentifier: "MapID") as! MapVC
         self.present(vc, animated: true, completion: nil)
     }
 }
