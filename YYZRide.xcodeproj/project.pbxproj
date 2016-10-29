@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444A7D731DC3FA40009A439E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D721DC3FA40009A439E /* AppDelegate.swift */; };
+		444A7D751DC3FA40009A439E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D741DC3FA40009A439E /* LoginVC.swift */; };
+		444A7D781DC3FA40009A439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D761DC3FA40009A439E /* Main.storyboard */; };
+		444A7D7B1DC3FA40009A439E /* YYZRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D791DC3FA40009A439E /* YYZRide.xcdatamodeld */; };
+		444A7D7D1DC3FA40009A439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D7C1DC3FA40009A439E /* Assets.xcassets */; };
+		444A7D801DC3FA40009A439E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D7E1DC3FA40009A439E /* LaunchScreen.storyboard */; };
+		444A7D8B1DC3FCC0009A439E /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 444A7D8A1DC3FCBF009A439E /* car.png */; };
+		444A7D8E1DC40595009A439E /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D8D1DC40595009A439E /* Jitterable.swift */; };
+		444A7D901DC405B5009A439E /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D8F1DC405B5009A439E /* Flashable.swift */; };
+		444A7D921DC441BE009A439E /* DirectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D911DC441BD009A439E /* DirectionVC.swift */; };
+		444A7D941DC45427009A439E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A7D931DC45426009A439E /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4332BBF418E9BE61428ED14E /* Pods-YYZRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZRide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYZRide/Pods-YYZRide.debug.xcconfig"; sourceTree = "<group>"; };
+		444A7D6F1DC3FA40009A439E /* YYZRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYZRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444A7D721DC3FA40009A439E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		444A7D741DC3FA40009A439E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		444A7D771DC3FA40009A439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		444A7D7A1DC3FA40009A439E /* YYZRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YYZRide.xcdatamodel; sourceTree = "<group>"; };
+		444A7D7C1DC3FA40009A439E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		444A7D7F1DC3FA40009A439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		444A7D811DC3FA40009A439E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444A7D8A1DC3FCBF009A439E /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		444A7D8D1DC40595009A439E /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
+		444A7D8F1DC405B5009A439E /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashable.swift; sourceTree = "<group>"; };
+		444A7D911DC441BD009A439E /* DirectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionVC.swift; sourceTree = "<group>"; };
+		444A7D931DC45426009A439E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4EDE6249165F0540171FB74C /* Pods_YYZRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYZRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE33285814F67DF2247535AF /* Pods-YYZRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYZRide/Pods-YYZRide.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C059FBF6E384262DFE4FD7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4332BBF418E9BE61428ED14E /* Pods-YYZRide.debug.xcconfig */,
+				BE33285814F67DF2247535AF /* Pods-YYZRide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		444A7D661DC3FA40009A439E = {
+			isa = PBXGroup;
+			children = (
+				444A7D711DC3FA40009A439E /* YYZRide */,
+				444A7D701DC3FA40009A439E /* Products */,
+				0C059FBF6E384262DFE4FD7E /* Pods */,
+				C2AD784325901D1FE18A48A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		444A7D701DC3FA40009A439E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444A7D6F1DC3FA40009A439E /* YYZRide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		444A7D711DC3FA40009A439E /* YYZRide */ = {
+			isa = PBXGroup;
+			children = (
+				444A7D8C1DC40567009A439E /* Protocols */,
+				444A7D871DC3FBB1009A439E /* images */,
+				444A7D721DC3FA40009A439E /* AppDelegate.swift */,
+				444A7D741DC3FA40009A439E /* LoginVC.swift */,
+				444A7D911DC441BD009A439E /* DirectionVC.swift */,
+				444A7D761DC3FA40009A439E /* Main.storyboard */,
+				444A7D7C1DC3FA40009A439E /* Assets.xcassets */,
+				444A7D7E1DC3FA40009A439E /* LaunchScreen.storyboard */,
+				444A7D811DC3FA40009A439E /* Info.plist */,
+				444A7D791DC3FA40009A439E /* YYZRide.xcdatamodeld */,
+				444A7D931DC45426009A439E /* API.swift */,
+			);
+			path = YYZRide;
+			sourceTree = "<group>";
+		};
+		444A7D871DC3FBB1009A439E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				444A7D8A1DC3FCBF009A439E /* car.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		444A7D8C1DC40567009A439E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				444A7D8D1DC40595009A439E /* Jitterable.swift */,
+				444A7D8F1DC405B5009A439E /* Flashable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		C2AD784325901D1FE18A48A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE6249165F0540171FB74C /* Pods_YYZRide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		444A7D6E1DC3FA40009A439E /* YYZRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444A7D841DC3FA40009A439E /* Build configuration list for PBXNativeTarget "YYZRide" */;
+			buildPhases = (
+				444A7D6B1DC3FA40009A439E /* Sources */,
+				444A7D6D1DC3FA40009A439E /* Resources */,
+				09D86C9F05C6CB47210C800E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYZRide;
+			productName = YYZRide;
+			productReference = 444A7D6F1DC3FA40009A439E /* YYZRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		444A7D671DC3FA40009A439E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yevhen Kim";
+				TargetAttributes = {
+					444A7D6E1DC3FA40009A439E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZQULK99ND9;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 444A7D6A1DC3FA40009A439E /* Build configuration list for PBXProject "YYZRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 444A7D661DC3FA40009A439E;
+			productRefGroup = 444A7D701DC3FA40009A439E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444A7D6E1DC3FA40009A439E /* YYZRide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444A7D6D1DC3FA40009A439E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444A7D8B1DC3FCC0009A439E /* car.png in Resources */,
+				444A7D801DC3FA40009A439E /* LaunchScreen.storyboard in Resources */,
+				444A7D7D1DC3FA40009A439E /* Assets.xcassets in Resources */,
+				444A7D781DC3FA40009A439E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09D86C9F05C6CB47210C800E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYZRide/Pods-YYZRide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444A7D6B1DC3FA40009A439E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444A7D751DC3FA40009A439E /* LoginVC.swift in Sources */,
+				444A7D8E1DC40595009A439E /* Jitterable.swift in Sources */,
+				444A7D7B1DC3FA40009A439E /* YYZRide.xcdatamodeld in Sources */,
+				444A7D731DC3FA40009A439E /* AppDelegate.swift in Sources */,
+				444A7D921DC441BE009A439E /* DirectionVC.swift in Sources */,
+				444A7D901DC405B5009A439E /* Flashable.swift in Sources */,
+				444A7D941DC45427009A439E /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		444A7D761DC3FA40009A439E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444A7D771DC3FA40009A439E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		444A7D7E1DC3FA40009A439E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444A7D7F1DC3FA40009A439E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		444A7D821DC3FA40009A439E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		444A7D831DC3FA40009A439E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		444A7D851DC3FA40009A439E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4332BBF418E9BE61428ED14E /* Pods-YYZRide.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQULK99ND9;
+				INFOPLIST_FILE = YYZRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.YYZRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		444A7D861DC3FA40009A439E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE33285814F67DF2247535AF /* Pods-YYZRide.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQULK99ND9;
+				INFOPLIST_FILE = YYZRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.YYZRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444A7D6A1DC3FA40009A439E /* Build configuration list for PBXProject "YYZRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444A7D821DC3FA40009A439E /* Debug */,
+				444A7D831DC3FA40009A439E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444A7D841DC3FA40009A439E /* Build configuration list for PBXNativeTarget "YYZRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444A7D851DC3FA40009A439E /* Debug */,
+				444A7D861DC3FA40009A439E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		444A7D791DC3FA40009A439E /* YYZRide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				444A7D7A1DC3FA40009A439E /* YYZRide.xcdatamodel */,
+			);
+			currentVersion = 444A7D7A1DC3FA40009A439E /* YYZRide.xcdatamodel */;
+			path = YYZRide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 444A7D671DC3FA40009A439E /* Project object */;
+}
